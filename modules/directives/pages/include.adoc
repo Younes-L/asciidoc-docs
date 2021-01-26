@@ -61,8 +61,12 @@ See xref:asciidoctor::safe-modes.adoc[] to learn more.
 
 If you don't want the include directive to be processed, you must escape it using a backslash.
 
+// because this source document is also asciidoc, the following example can't display the escape backslash in the output, unless the directive syntax is purposefully wront.
+// In this case, indenting the directive line by 1 space then setting the intent attribute to 0, results in the desired output.
+
+[indent=0]
 ----
-\include::just-an-example.ext[]
+ \include::just-an-example.ext[]
 ----
 
 Escaping the directive is necessary _even if it appears in a verbatim block_ since it's not aware of the surrounding document structure.
