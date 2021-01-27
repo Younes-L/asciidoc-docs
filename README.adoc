@@ -1,3 +1,5 @@
+== this readme file is one level above the root directory, which is ROOT
+
 === description of the issue :
 
 with this setup :
