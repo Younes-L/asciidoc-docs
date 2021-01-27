@@ -6,6 +6,8 @@ this file is included in file_1 and includes file_3
 
 everything after header is tagged with `file_2` to skip the header when including
 
-include::{path-reference}[tag=file_3]
-
 the inclusion path is absolute and referenced from an attribute
+
+=== end of file_2
+
+include::{path-reference}[tag=file_3]
