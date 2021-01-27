@@ -1,4 +1,4 @@
-== this is the 2nd/final layer of inclusion
+== this is file_3
 //tag::file_3[]
 
 this file is included in file_2 which itself is included in file_1 +
