@@ -1,3 +1,5 @@
 == this is the "top level" file
 
+it includes file_2 which itself includes file_3
+
 include::subdir-1/file_2.adoc[tag=file_2]
