@@ -1,6 +1,5 @@
-== this readme file is one level above the root directory, which is ROOT
-
-the file to be rendered is file_1 inside the ROOT directory
+== the file to be rendered is file_1 
+it is supposed to be located at the root directory of the repo, alongside the 2 other folders
 
 === description of the issue :
 
