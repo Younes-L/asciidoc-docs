@@ -3,4 +3,6 @@
 
 this file is included in file_2 which itself is included in file_1 +
 
+the inclusion of this file resolves correctly in file_2 but not in file_1
+
 everything after header is tagged with `file_3` to skip header in inclusion
