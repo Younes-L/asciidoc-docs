@@ -1,0 +1,2 @@
+== this is the first layer of inclusion
+:path-reference: /unresolved-directive-example/subdir-2/subdir-2-1/file_3.adoc
