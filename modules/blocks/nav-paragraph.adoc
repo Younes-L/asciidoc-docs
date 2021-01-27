@@ -1,4 +1,0 @@
-* xref:paragraphs.adoc[]
-** xref:hard-line-breaks.adoc[]
-** xref:preamble-and-lead.adoc[]
-** xref:paragraph-alignment.adoc[]

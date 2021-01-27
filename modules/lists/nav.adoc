@@ -1,9 +1,0 @@
-* Lists
-** xref:unordered.adoc[]
-** xref:ordered.adoc[]
-** xref:checklist.adoc[]
-** xref:continuation.adoc[]
-
-[]
-* xref:description.adoc[]
-** xref:qanda.adoc[]
