@@ -1,5 +1,7 @@
 == this readme file is one level above the root directory, which is ROOT
 
+the file to be rendered is file_1 inside the ROOT directory
+
 === description of the issue :
 
 with this setup :
