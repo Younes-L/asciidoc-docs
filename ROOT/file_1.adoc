@@ -2,7 +2,8 @@
 
 it includes file_2 which itself includes file_3
 
-the inclusion path is relative and not reference via an attribute
+the inclusion path is relative and not reference via an attribute +
+`subdir-1/file_2.adoc`
 
 === file_1 ends here
 
