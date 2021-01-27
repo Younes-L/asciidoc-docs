@@ -1,4 +1,4 @@
-== this is the first layer of inclusion
+== this is file_2
 //tag::file_2[]
 :path-reference: /unresolved-directive-example/subdir-2/subdir-2-1/file_3.adoc
 
@@ -8,6 +8,8 @@ everything after header is tagged with `file_2` to skip the header when includin
 
 the inclusion path is absolute and referenced from an attribute
 
-=== end of file_2
+=== file_2 ends here
+
+=== file_3 inclusion starts here
 
 include::{path-reference}[tag=file_3]
