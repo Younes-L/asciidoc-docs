@@ -11,6 +11,14 @@ the inclusion path is absolute and referenced from an attribute +
 
 === file_2 ends here
 
-=== file_3 inclusion starts here
+=== file_3 inclusion (using attribute reference) starts here
+(this is where the error is thrown in file_1)
 
 include::{path-reference}[tag=file_3]
+
+=== files_3 inclusion (using attribute reference) ends here
+
+=== file_3 inclusion (using full path) starts here
+(this works)
+
+include::/subdir-2/subdir-2-1/file_3.adoc[tag=file_3]
