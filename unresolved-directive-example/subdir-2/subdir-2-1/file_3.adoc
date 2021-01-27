@@ -1,5 +1,6 @@
 == this is the 2nd/final layer of inclusion
+//tag::file_3[]
 
-//tag::some-tag[]
-this file will be included in file_2 which itself will be included in file_1 +
-it is also tagged to be as close to the original situation
+this file is included in file_2 which itself is included in file_1 +
+
+everything after header is tagged with `file_3` to skip header in inclusion
