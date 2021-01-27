@@ -1,1 +1,3 @@
 == this is the "top level" file
+
+include::subdir-1/file_2.adoc[tag=file_2]
