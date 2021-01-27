@@ -1,0 +1,14 @@
+=== description of the issue :
+
+with this setup :
+
+* the inclusion of file_3 is resolved correctly in file 2,
+* the inclusion of file_2 is resolved correctly in file_1, except
+* the inclusion of file_3 in file_1 via file_2 is not resolved
+
+=== what made a difference :
+writing the full path of file_3 in the include directive of file_2 makes file_3 show up correctly in file_1 
+
+=== what i'm using to convert :
+the built-in converter of gitlab.com (for files such as readme, not the converter of GitLab Pages) +
+i have not tried using gitlab.com NEXT
